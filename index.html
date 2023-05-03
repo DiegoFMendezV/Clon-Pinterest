@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+</head>
+<body>
+    <nav id="navbar-pinterest">
+        <a id="pinterest-icon" href="https://www.pinterest.com"><img src="images/icono.png" alt=""></a>
+        <div class="menu">
+            <button>Inicio</button>
+            <p>Hoy</p>
+            <p>Crear</p>
+        </div>
+        <div class="searcher">
+            <img class="icono_search" src="images/lupa.png" alt=""> 
+            <input type="text" class="finder" placeholder="Buscar">
+        </div>
+        <div id="notifications">
+            <img src="images/notifications.png" alt="">
+        </div>
+        <div id="messages">
+            <img src="images/messages.png" alt="">
+        </div>
+        <div id="profile-img">
+            <img src="images/diego.jpg" alt="">
+        </div>
+    </nav>
+    <main id="fotos">
+        <div class="content">
+            <img class="card-image" src="images/1.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/2.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/3.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/4.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/5.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/6.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/7.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/8.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/9.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/10.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/11.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/12.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/13.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/14.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/15.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/1.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/2.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/3.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/4.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/5.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/6.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/7.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/9.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/8.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/10.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/11.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/12.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/13.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/15.jfif" alt="">
+        </div>
+        <div class="content">
+            <img class="card-image" src="images/14.jfif" alt="">
+        </div>
+    </main>
+    <script>
+        var elem = document.querySelector('#fotos');
+        var msnry = new Masonry( elem, {
+        // options
+        itemSelector: '.content',
+        });
+
+        // element argument can be a selector string
+        //   for an individual element
+        var msnry = new Masonry( '.grid', {
+        // options
+        });
+    </script>
+</body>
+</html>

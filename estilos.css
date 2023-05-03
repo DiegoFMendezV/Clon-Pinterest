@@ -1,0 +1,89 @@
+
+
+#navbar-pinterest{
+    display: flex;
+    padding: 15px 15px;
+    align-items: center;
+}
+
+#navbar-pinterest a{
+    margin-right: 20px;
+}
+
+#navbar-pinterest .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar-pinterest .menu button{
+    height: 50px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: large;
+    margin-right: 20px;
+}
+
+#navbar-pinterest .menu p{
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+#navbar-pinterest div img{
+    width: 30px;
+}
+
+#navbar-pinterest .searcher{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 1000px;
+    padding: 10px 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.151);
+    margin-right: 30px;
+}
+
+#navbar-pinterest .searcher input{
+    border: none;
+    background-color: rgba(128, 128, 128, 0);
+    width: 900px;
+}
+
+#pinterest-icon img{
+    width: 30px;
+}
+
+#navbar-pinterest .searcher img{
+    width: 20px;
+}
+
+#notifications,#messages,#profile-img{
+    margin-right: 30px;
+    color: gray;
+}
+
+#profile-img img{
+    border-radius: 50%;
+}
+
+#fotos{
+    width: 100%;
+    margin: 15px 15px;
+}
+
+#fotos .content{
+    width: 275px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0,22);
+}
+
+#fotos .content .card-image{
+    width: 100%;
+    border-radius: 20px;
+}
