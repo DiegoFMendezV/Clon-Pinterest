@@ -75,6 +75,16 @@
     margin: 15px 15px;
 }
 
+.content{
+    display:inline-block;
+    position:relative; 
+}
+
+.content button{
+    position: relative;
+    bottom: 110px;
+    left: 180px;
+}
 #fotos .content{
     width: 275px;
     float: left;
@@ -87,3 +97,18 @@
     width: 100%;
     border-radius: 20px;
 }
+
+.content #hover_guardar{
+   background-color: red;
+   border: red;
+   color: white;
+   height: 30px;
+   width: 80px;
+   border-radius: 50px;
+}
+
+#fotos .content .card-image:hover{
+    cursor: pointer;
+    opacity: 0.5;
+ }
+
